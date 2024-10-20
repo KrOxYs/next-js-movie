@@ -10,7 +10,7 @@ const Navbar = () => {
   const { data: session } = useSession(); // Mengambil session
   const router = useRouter();
 
-  console.log("session", session);
+  // console.log("session", session);
 
   const [search, setSearch] = useState<string>("");
   const [dropdownMenu, setDropdownMenu] = useState<boolean>(false);
@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <div className={`navbar ${isScrolled && "bg-black-1"}`}>
       <Link href="/">
-        <img src="/assets/logo.png" alt="logo" className="logo" />
+        <img src="/assets/netflix.png" alt="logo" className="logo" />
       </Link>
 
       <div className="nav-links">
@@ -105,8 +105,8 @@ const Navbar = () => {
       {!session && (
         <div className="">
           <img
-            src="https://www.svgrepo.com/show/312300/hamburger-menu.svg"
-            className=" text-blue-500 bg-white w-10 h-10 "
+            src="/assets/pngwing.png"
+            className=" text-blue-500 bg-white w-10 h-10 rounded-full "
             alt="hamburger"
             onClick={() => setDropdownMenu(!dropdownMenu)}
           />
@@ -114,7 +114,7 @@ const Navbar = () => {
             <div className="dropdown-menu">
               <Link href="/">Home</Link>
               <Link href="/my-list">My List</Link>
-              <div className="flex flex-row">
+              <div className="flex flex-col gap-3">
                 <Link href="/register" className="hover:text-pink-600">
                   Register
                 </Link>

@@ -25,7 +25,7 @@
 }
 
 .logo {
-  @apply w-48;
+  @apply w-36;
 }
 
 .form {
@@ -45,7 +45,7 @@
 }
 
 .button {
-  @apply w-full px-5 py-3 mt-5 mb-7 rounded-xl cursor-pointer bg-pink-2 hover:bg-pink-1 text-white text-body-bold;
+  @apply w-full px-5 py-3 mt-5 mb-7 rounded-xl cursor-pointer bg-gray-400 hover:bg-gray-700 text-white text-body-bold;
 }
 
 .link {
