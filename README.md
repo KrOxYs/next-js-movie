@@ -5,8 +5,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, Clone the repository : 
 
 ```bash
-git clone 
+git clone https://github.com/KrOxYs/next-js-movie.git
+#
+cd next-js-movie
 ```
+
 
 Second, Add The Env On the root of the file : 
 
