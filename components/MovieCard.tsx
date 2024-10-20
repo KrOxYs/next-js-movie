@@ -18,7 +18,10 @@ const MovieCard = ({ movie }: { movie: Movie }) => {
 
   return (
     <>
-      <div className="relative movie-card group w-[20vw]" onClick={openModal}>
+      <div
+        className="relative movie-card group w-[20vw] max-sm:w-[40vw] max-sm:h-[50vw]"
+        onClick={openModal}
+      >
         <img
           src={
             movie?.backdrop_path || movie?.poster_path

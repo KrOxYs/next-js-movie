@@ -19,7 +19,7 @@ const MovieCard = ({ movie }: { movie: Movie }) => {
   return (
     <>
       <div
-        className="relative movie-card group w-[30vw] md:h-[20vw]"
+        className="relative movie-card group w-[30vw] md:h-[20vw] max-sm:w-full max-sm:h-[50vw]"
         onClick={openModal}
       >
         <img
@@ -28,7 +28,7 @@ const MovieCard = ({ movie }: { movie: Movie }) => {
               ? `${baseImgUrl}${movie?.backdrop_path || movie?.poster_path}`
               : "/assets/no-image.png"
           }
-          className="thumbnail"
+          className="thumbnail "
           alt={movie?.title || movie?.name}
         />
         <div className="border"></div>

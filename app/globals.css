@@ -128,7 +128,7 @@
 
 /* All movies */
 .all-movies {
-  @apply flex flex-col gap-8 mt-16 pl-10;
+  @apply flex flex-col gap-8 mt-16 md:pl-10;
 }
 
 /* Category */
@@ -146,7 +146,7 @@
 
 /* Movie */
 .movie-card {
-  @apply relative h-24 min-w-48 sm:h-32 sm:min-w-60 md:h-36 md:min-w-72 cursor-pointer hover:outline-white;
+  @apply relative h-24 min-w-48 sm:h-32 max-sm:min-w-20 md:h-36 md:min-w-72 cursor-pointer hover:outline-white;
 }
 
 .thumbnail {

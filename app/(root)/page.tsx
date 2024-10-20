@@ -124,7 +124,7 @@ const Home: React.FC = () => {
           <h1 className=" text-heading5-bold text-green-600 font-bold">
             Now Playing
           </h1>
-          <div className="flex flex-wrap gap-9">
+          <div className="flex flex-wrap md:gap-9 max-sm:gap-5 justify-center w-full">
             {visibleMovies.map((movie) => (
               <div className="flex" key={movie.id}>
                 <AutoScrollingMovies movie={movie} />
@@ -134,7 +134,7 @@ const Home: React.FC = () => {
           <h1 className=" text-heading5-bold text-green-600 font-bold">
             Popular Movies
           </h1>
-          <div className="flex flex-wrap gap-9 justify-center">
+          <div className="flex flex-wrap md:gap-9 max-sm:gap-4 justify-center">
             {visiblePopularMovies.map((m) => (
               <div className="flex justify-center " key={m.id}>
                 <MovieCard movie={m} />
