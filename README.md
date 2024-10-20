@@ -2,16 +2,30 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, Clone the repository : 
+
+```bash
+git clone 
+```
+
+Second, Add The Env On the root of the file : 
+
+NEXT_PUBLIC_ACCESS_TOKEN = 
+NEXT_PUBLIC_API_URL = 
+NEXTAUTH_SECRET =
+MONGODB_URL = 
+
+note : NEXT_PUBLIC_ACCESS_TOKEN and NEXT_PUBLIC_API_URL is a tmdb Api , you must have an account or you can create the account on the [TMDB](https://developer.themoviedb.org/reference/intro/getting-started) - learn about Next.js features and API.(https://developer.themoviedb.org/reference/intro/getting-started))
+
+Third,install the dependencies:
+
+```bash
+npm install
+```
+Fourth, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
