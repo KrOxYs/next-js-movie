@@ -2,11 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, Clone the repository : 
+First,  Clone the repository : 
 
 ```bash
 git clone https://github.com/KrOxYs/next-js-movie.git
-#
+```
+and then 
+```bash
 cd next-js-movie
 ```
 
