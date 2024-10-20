@@ -10,10 +10,10 @@ git clone
 
 Second, Add The Env On the root of the file : 
 
-NEXT_PUBLIC_ACCESS_TOKEN = 
-NEXT_PUBLIC_API_URL = 
-NEXTAUTH_SECRET =
-MONGODB_URL = 
+- NEXT_PUBLIC_ACCESS_TOKEN = 
+- NEXT_PUBLIC_API_URL = 
+- NEXTAUTH_SECRET =
+- MONGODB_URL = 
 
 note : NEXT_PUBLIC_ACCESS_TOKEN and NEXT_PUBLIC_API_URL is a tmdb Api , you must have an account or you can create the account on the [TMDB](https://developer.themoviedb.org/reference/intro/getting-started) - learn about Next.js features and API.(https://developer.themoviedb.org/reference/intro/getting-started))
 
